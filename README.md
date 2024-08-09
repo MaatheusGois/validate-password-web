@@ -4,6 +4,9 @@ A web-based application to assess the strength of a password and estimate the ti
 
 Based in: [how-long-does-it-take-a-hacker-to-brute-force-a-password-in-2023](https://www.netsec.news/how-long-does-it-take-a-hacker-to-brute-force-a-password-in-2023/)
 
+![image](https://github.com/user-attachments/assets/c8d4a66d-a2c9-45e6-9c44-bb872f1f2ecf)
+
+
 ## Features
 
 - **Password Strength Assessment:** Evaluates the strength of a password based on length and character diversity.
@@ -13,6 +16,8 @@ Based in: [how-long-does-it-take-a-hacker-to-brute-force-a-password-in-2023](htt
 ## Demo
 
 You can view a live demo of the Password Strength Checker [here](#) (replace with actual demo link).
+
+![Screenshot 2024-08-09 at 20 44 54](https://github.com/user-attachments/assets/81cd46f9-b08c-429a-abc6-94bd46b44476)
 
 ## Installation
 
