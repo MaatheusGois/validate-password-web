@@ -60,7 +60,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any questions or feedback, please contact me in Linkedin [https://www.linkedin.com/in/maatheusgois](https://www.linkedin.com/in/maatheusgois/).
-
----
-
-Replace placeholders like `your-username`, `your-email@example.com`, and demo link with your actual details. Adjust the content as needed to fit your project's specifics.
