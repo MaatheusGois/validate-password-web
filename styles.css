@@ -1,0 +1,142 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centraliza e define uma largura máxima para o conteúdo */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+/* Estiliza o footer com cores de contraste */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
+    border-top: 3px solid #17a2b8;
+}
+
+/* Links no footer com cores vivas */
+footer a {
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o resultado de verificação da senha */
+.result {
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result span {
+    font-size: 2em;
+}
+
+.result p {
+    color: #1f1f1f;
+}
+
+.result .crack {
+    font-size: 1.5em;
+}
+
+/* Estiliza o botão para verificar a segurança da senha */
+.btn-primary {
+    width: 50%;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-secondary {
+    background-color: #959595;
+    border-color: #b8b8b8;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Estiliza o input de senha */
+.form-control {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #17a2b8;
+    outline: none;
+}
+
+/* H1 estilizado */
+h1 {
+    font-size: 2.5rem;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+/* Estilo do parágrafo */
+p {
+    font-size: 1rem;
+    color: #6c757d;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+    border-bottom: 3px solid #17a2b8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Ajustes para pequenos dispositivos */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .btn-primary {
+        font-size: 1rem;
+    }
+
+    .container {
+        margin: 10px auto;
+    }
+}

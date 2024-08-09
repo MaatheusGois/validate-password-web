@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Security Estimator</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="d-flex flex-column min-vh-100">
+        
+        <div class="container mh-auto">
+            <h1 class="mb-4 mt-5">Password Security Estimator</h1>
+
+            <p>Despite the growing adoption of passwordless authentication, passwords remain the most common method for protecting accounts, but they are susceptible to brute force attacks, especially with the advancement of modern GPUs. For example, 6-character passwords can be cracked instantly, regardless of the combination of letters, numbers, or special characters used.</p>
+
+            <p>The annual Hive Systems research reveals how the complexity and length of passwords significantly impact the time required to crack them. Using a desktop with a high-performance GPU, an 8-character password made up of numbers, uppercase and lowercase letters, and symbols can be cracked in less than an hour. With cloud resources, such as Amazon AWS GPUs, this time can be reduced to minutes.</p>
+
+            <p>Furthermore, this year's analysis considered the impact of advanced tools like ChatGPT, which could theoretically crack a password in seconds with the massive use of GPUs, although it is unlikely that hackers have access to such resources.</p>
+
+            <p>The research underscores the importance of using long and complex passwords and recommends adopting multifactor authentication to enhance account security.</p>
+            
+            <div>
+                <div class="form-group">
+                    <h5><label for="password">Enter a password you would use</label></h5>
+                    <input type="password" class="form-control" id="password" placeholder="Enter a password you would use" required>
+                </div>
+                <div class="d-flex justify-content-between"">
+                    <button class="btn btn-primary" onclick="checkPassword()">Check Security</button>
+                    <button id="seePasswordButton" class="btn btn-secondary" onclick="seePassword()">See Password</button>
+                </div>
+            </div>
+            <div id="result" class="mt-4 result" style="display: none;">
+
+            </div>
+        </div>
+        
+        <footer class="text-center mt-auto">
+            <p>Source: <a href="https://www.netsec.news/how-long-does-it-take-a-hacker-to-brute-force-a-password-in-2023/">NetSec News - How Long Does it Take a Hacker to Brute Force a Password in 2023?</a></p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
