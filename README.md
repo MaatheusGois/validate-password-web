@@ -15,7 +15,7 @@ Based in: [how-long-does-it-take-a-hacker-to-brute-force-a-password-in-2023](htt
 
 ## Demo
 
-You can view a live demo of the Password Strength Checker [here](#) (replace with actual demo link).
+You can view a live demo of the Password Strength Checker [here](https://maatheusgois.github.io/validate-password-web/) (replace with actual demo link).
 
 ![Screenshot 2024-08-09 at 20 44 54](https://github.com/user-attachments/assets/81cd46f9-b08c-429a-abc6-94bd46b44476)
 
